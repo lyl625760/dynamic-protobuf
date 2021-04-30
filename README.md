@@ -1,5 +1,5 @@
 # dynamic-protobuf
-Combine the schema of protobuf and the flexible of json format. 
+Combine the schema of google protocol buffer and the flexible of json format. 
 It helps you parse any message which is serialized by Google protobuf  without  compiled protobuf java class
 
 Features :
@@ -9,7 +9,7 @@ Features :
 
 
 
-[h1]Example : 
+Example : 
 
 // Step 1: init ProtobufUtil
 ```
