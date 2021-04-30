@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+message CustomMessage {
+    int32 hellokey=1;
+    int32 hellovalue=2;
+}
+enum Gender {
+    man=0;
+    woman=1;
+}
+
+message SearchRequest {
+  string query = 1;
+  int32 page_number = 2;
+  double salary = 3;
+  bool isMan = 4;
+  bytes embedding_data = 5;
+  repeated int32 test=6;
+  map<int32,int32>oo = 7;
+  CustomMessage message = 8 ;
+  map<int32,CustomMessage> secondMap = 9;
+  Gender gender = 10;
+
+  message MyMessage {
+      int32 my = 1;
+      int32 honey = 2;
+  }
+  MyMessage poney = 11;
+}
