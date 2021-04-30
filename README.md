@@ -11,9 +11,7 @@ Features :
 
 [h1]Example : 
 
-// Step 1: init ProtobufUitl
-// You can generate proto desc file from proto file like this:
-protoc --proto_path=./  --java_out=./ a.proto --descriptor_set_out=message.desc
+// Step 1: init ProtobufUtil
 ```
         
         ProtobufUtil util = new ProtobufUtil();
@@ -22,6 +20,12 @@ protoc --proto_path=./  --java_out=./ a.proto --descriptor_set_out=message.desc
             util.init(inputStream);
         }
  ```     
+ Notice :
+ ```
+ // You can generate proto desc file from proto file like this:
+protoc --proto_path=./  --java_out=./ a.proto --descriptor_set_out=message.desc
+ ```
+ 
 // Step2 : deserialize protobuf message without Protobuf Java Class
 
 ```
