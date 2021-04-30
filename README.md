@@ -9,10 +9,11 @@ Features :
 
 
 
-Example : 
+[h1]Example : 
 
 // Step 1: init ProtobufUitl
-// You can generate proto desc file from proto file like this: protoc --proto_path=./  --java_out=./ a.proto --descriptor_set_out=message.desc
+// You can generate proto desc file from proto file like this:
+protoc --proto_path=./  --java_out=./ a.proto --descriptor_set_out=message.desc
 ```
         
         ProtobufUtil util = new ProtobufUtil();
