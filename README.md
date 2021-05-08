@@ -32,3 +32,11 @@ protoc --proto_path=./  --java_out=./ a.proto --descriptor_set_out=message.desc
         util.parseMessage(bytes,messageName,fieldName)
 ```
 you can refer to the examples in src/main/test/Test
+
+```
+<dependency>
+  <groupId>io.github.lyl625760</groupId>
+  <artifactId>dynamic-protobuf</artifactId>
+  <version>1.1-SNAPSHOT</version>
+</dependency>
+```
